@@ -35,7 +35,7 @@ const styled = ({ display = "none", left = 0, top = 0 }) => `
   }
 `;
 
-class chromeExtenstionMarker extends HTMLElement {
+class chromeExtensionMarker extends HTMLElement {
   constructor() {
     super();
     this.render();
@@ -95,4 +95,7 @@ class chromeExtenstionMarker extends HTMLElement {
   }
 }
 
-window.customElements.define("medium-highlighter", chromeExtenstionMarker);
+window.customElements.define(
+  "brand-folder-chrome-extension",
+  chromeExtensionMarker
+);

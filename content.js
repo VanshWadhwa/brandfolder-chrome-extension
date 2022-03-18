@@ -1,10 +1,10 @@
-const chromeExtenstionMarker = document.createElement(
+const chromeExtensionMarker = document.createElement(
   "brand-folder-chrome-extension"
 );
-document.body.appendChild(chromeExtenstionMarker);
+document.body.appendChild(chromeExtensionMarker);
 
 const setMarkerPosition = (markerPosition) =>
-  chromeExtenstionMarker.setAttribute(
+  chromeExtensionMarker.setAttribute(
     "markerPosition",
     JSON.stringify(markerPosition)
   );
