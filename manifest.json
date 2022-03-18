@@ -1,11 +1,15 @@
 {
-  "name": "Brand Folder Plus",
+  "name": "Brand-Folder-Plus",
   "version": "1.0.0",
   "manifest_version": 3,
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": []
+      "js": [
+        "node_modules/@webcomponents/custom-elements/custom-elements.min.js",
+        "brandfolder-chrome-extension.js",
+        "content.js"
+      ]
     }
   ]
 }
